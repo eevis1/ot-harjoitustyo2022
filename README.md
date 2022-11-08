@@ -6,5 +6,5 @@
 
 Tämä on **Ohjelmistotekniikan** *harjoitustyö*
 
-[gitlog.txt] (https://github.com/eevis1/ot-harjoitustyo2022/blob/master/laskarit/viikko1/gitlog.txt)
-[komentorivi.txt] (https://github.com/eevis1/ot-harjoitustyo2022/blob/master/laskarit/viikko1/komentorivi.txt)
+[gitlog.txt]([url](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/laskarit/viikko1/gitlog.txt)) 
+[komentorivi.txt]([url](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/laskarit/viikko1/komentorivi.txt))
