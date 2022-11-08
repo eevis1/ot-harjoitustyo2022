@@ -1,0 +1,115 @@
+C:\Users\etill\ot_viikko1\tiedostoja>git log –stat | cat
+commit 5de775b23388a7d85fd4247ada4eef407bc53ee2 (HEAD -> master)
+Author: Eva Tillder <eva-maria.tillder@helsinki.fi>
+Date:   Tue Nov 8 10:45:22 2022 +0200
+
+    poistettu file1, uudelleennimetty file2 file22
+
+ tiedostoja/file2.txt                 | 0
+ tiedostoja/{file1.txt => file22.txt} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 533eb1199a6355d2e0782d0f8c786ef1fd28219e
+Author: Eva Tillder <eva-maria.tillder@helsinki.fi>
+Date:   Tue Nov 8 10:33:30 2022 +0200
+
+    luotu file1, file2 ja file3
+
+ tiedostoja/file1.txt | 0
+ tiedostoja/file2.txt | 0
+ tiedostoja/file3.txt | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit e58885f3ad3a8fdc45dcd22207e412e3506d8bca
+Author: Eva Tillder <eva-maria.tillder@helsinki.fi>
+Date:   Tue Nov 8 10:21:06 2022 +0200
+
+    muutokset eka.txt ja kolmas.txt
+
+ eka.txt    | 8 ++++++--
+ kolmas.txt | 5 ++++-
+ 2 files changed, 10 insertions(+), 3 deletions(-)
+
+commit b2103a3eda07854549b0bc23e66d9046cabd0b95
+Author: Eva Tillder <eva-maria.tillder@helsinki.fi>
+Date:   Tue Nov 8 09:51:58 2022 +0200
+
+    tiedosto.txt uudelleennimentä eka.txt
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 3175dd050b51049b91a712a57d3ae14acf91f638
+Author: Eva Tillder <eva-maria.tillder@helsinki.fi>
+Date:   Tue Nov 8 09:46:17 2022 +0200
+
+    toinen.txt tiedoston poisto
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit c8bf8f0cbc41d8f5776d0ce35e5cc0262169c64e
+Author: Eva Tillder <eva-maria.tillder@helsinki.fi>
+Date:   Tue Nov 8 09:17:24 2022 +0200
+
+    tiedosto.txt poisto ja lisää
+
+ tiedosto.txt | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 83f84eacfc6c1663e3c19b0888afb0adf39cbc64
+Author: Eva Tillder <eva-maria.tillder@helsinki.fi>
+Date:   Tue Nov 8 09:15:04 2022 +0200
+
+    tiedosto.txt paljon tekstiä
+
+ tiedosto.txt | 20 +++++++++++++++++++-
+ 1 file changed, 19 insertions(+), 1 deletion(-)
+
+commit 829fdf300230a98fdbdcd34d0f7c8dd457d751f5
+Author: Eva Tillder <eva-maria.tillder@helsinki.fi>
+Date:   Tue Nov 8 09:01:22 2022 +0200
+
+    stuff lisätty
+
+ stuff/jokintiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 7f43656f5c026f1a111302ba3475c0101ecb7893
+Author: Eva Tillder <eva-maria.tillder@helsinki.fi>
+Date:   Mon Nov 7 12:13:44 2022 +0200
+
+    uudet muutokset
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 092dd5536c27c0171d93122d4b7399ecb7d5c5b6
+Author: Eva Tillder <eva-maria.tillder@helsinki.fi>
+Date:   Mon Nov 7 12:09:16 2022 +0200
+
+    uusi lisäys
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit b8ae1a93dff9973d4b3cace22b2621752d5a706f
+Author: Eva Tillder <eva-maria.tillder@helsinki.fi>
+Date:   Mon Nov 7 12:02:35 2022 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 5ba902458fbee6f45bcc9d1155606c2598bbc22b
+Author: Eva Tillder <eva-maria.tillder@helsinki.fi>
+Date:   Mon Nov 7 10:25:39 2022 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+(END)
