@@ -31,3 +31,13 @@ Sovelluksella on kaksi käyttäjäroolia, toinen on normaali käyttäjä eli opi
 
 
 ## Jatkokehitysideoita
+
+Perusversion jälkeen sovellusta voidaan jatkaa, jos aikaa riittää muun muassa seuraavilla toiminnallisuuksilla:
+
+- Jo suoritettujen kurssien lähempi tarkastelu
+- Tehdyksi merkittyjen kurssien merkitseminen takaisin tekemättömäksi
+- Jo lisättyjen kurssien editoiminen
+- Kurssien ajoittaminen
+- Lisätään kurssiin kenttä, johon on mahdollista merkitä kurssiin liittyviä tarkempia tietoja
+- Käyttäjätunnuksen ja siihen liittyvien kurssien poisto
+
