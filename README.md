@@ -10,5 +10,9 @@ Tämä on **Ohjelmistotekniikan** *harjoitustyö*
 
 [komentorivi.txt](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/laskarit/viikko1/komentorivi.txt)
 
+[vaatimusmäärittely.md](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/vaatimusmaarittely.md)
+
+[tuntikirjanpito.md](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/tuntikirjanpito.md)
+
 
 README
