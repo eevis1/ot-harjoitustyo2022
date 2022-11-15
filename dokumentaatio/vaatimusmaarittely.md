@@ -14,11 +14,11 @@ Sovelluksella on kaksi käyttäjäroolia, toinen on normaali käyttäjä eli opi
 
 ### Ennen kirjautumista
 
-1. Käyttäjän täytyy luoda järjestelmään käyttäjätunnus
-   _ Käyttäjätunnusten täytyy olla uniikkeja ja pituudeltaan vähintään 3 merkkiä
-2. Käyttäjä käyttää käyttäjätunnusta kirjaututuakseen järjestelmään
-   _ Kirjautuminen tapahtuu syötettämällä käyttäjätunnuksen ja salasanan kirjautumislomakkeelle
-   _ Jos käyttäjää ei olemassa, tai salasana ei täsmää, järjestelmä ilmoittaa tästä
+- Käyttäjän täytyy luoda järjestelmään käyttäjätunnus
+  - Käyttäjätunnusten täytyy olla uniikkeja ja pituudeltaan vähintään 3 merkkiä
+- Käyttäjä käyttää käyttäjätunnusta kirjaututuakseen järjestelmään
+  - Kirjautuminen tapahtuu syötettämällä käyttäjätunnuksen ja salasanan kirjautumislomakkeelle
+  - Jos käyttäjää ei olemassa, tai salasana ei täsmää, järjestelmä ilmoittaa tästä
 
 
 ### Kirjautumisen jälkeen
