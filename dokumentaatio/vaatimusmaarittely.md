@@ -23,4 +23,11 @@ Sovelluksella on kaksi käyttäjäroolia, toinen on normaali käyttäjä eli opi
 
 ### Kirjautumisen jälkeen
 
+- Käyttäjä näkee omat käydyt ja käymättömät kurssinsa, sekä niiden arvosanat
+- Käyttäjä voi lisätä kursseja
+  - Lisätyt kurssit näkyvät vain ne lisänneelle käyttäjälle
+- Käyttäjä voi merkitä kurssin suoritetuksi, jolloin kurssi siirtyy suoritettujen kurssien joukkoon
+- Käyttäjä voi kirjautua ulos sovelluksesta
+
+
 ## Jatkokehitysideoita
