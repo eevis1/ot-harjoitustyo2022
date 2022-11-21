@@ -3,4 +3,5 @@
 | päivä | aika | mitä tein |
 | --- | --- | --- |
 | 15.11. | 2 | dokumentaation laadinta |
-| yht | 2 | |
+| 21.11. | 2 | lista kursseista |
+| yht | 4 | |
