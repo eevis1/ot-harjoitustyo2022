@@ -1,7 +1,5 @@
 from pathlib import Path
 from entities.course import Course
-from repositories.student_repository import StudentRepository
-
 
 
 class CourseRepository:
