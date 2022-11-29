@@ -1,1 +1,1 @@
-![](Sovelluslogiikka.png)
+![](/kuvat/Sovelluslogiikka.png)
