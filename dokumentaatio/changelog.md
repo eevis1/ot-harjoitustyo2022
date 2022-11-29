@@ -7,3 +7,4 @@
 ## Viikko 4
 
 - Käyttäjä voi lisätä kurssin
+- Testattu, että CourseRepository-luokka lisää kurssin
