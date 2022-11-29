@@ -1,6 +1,7 @@
 import unittest
 from course_repository import CourseRepository
 
+
 class TestCourseRepository(unittest.TestCase):
     def setUp(self):
         self.courserepository = CourseRepository()
