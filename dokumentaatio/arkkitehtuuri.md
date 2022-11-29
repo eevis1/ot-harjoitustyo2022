@@ -1,1 +1,1 @@
-![](/kuvat/Sovelluslogiikka.png)
+![](/dokumentaatio/kuvat/Sovelluslogiikka.png)
