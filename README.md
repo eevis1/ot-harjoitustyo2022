@@ -8,12 +8,13 @@ Tämä on **Ohjelmistotekniikan** *harjoitustyö*. Opintojen seurantajärjestelm
 
 ### Dokumentaatio
 
+- [Arkkitehtuurikuvaus](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/arkkitehtuuri.md)
 
-[vaatimusmäärittely.md](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/vaatimusmaarittely.md)
+- [Vaatimusmäärittely](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
-[tuntikirjanpito.md](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/tuntikirjanpito.md)
+- [Tuntikirjanpito](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/tuntikirjanpito.md)
 
-[changelog.md](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/changelog.md)
+- [Changelog](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/changelog.md)
 
 
 
