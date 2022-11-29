@@ -6,4 +6,4 @@
 
 ## Viikko 4
 
-- Käyttäjä voi merkata kurssin suoritetuksi
+- Käyttäjä voi lisätä kurssin
