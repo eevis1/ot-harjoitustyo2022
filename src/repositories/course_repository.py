@@ -1,3 +1,9 @@
+from pathlib import Path
+from entities.course import Course
+from repositories.student_repository import StudentRepository
+
+
+
 class CourseRepository:
 
     def __init__(self, file_path):
@@ -11,3 +17,41 @@ class CourseRepository:
         courses.append(course)
         self._write(courses)
         return course
+
+    def delete_all_courses(self):
+        self._write([])
+
+    def _ensure_file_exists(self):
+        Path(self._file_path).touch()
+
+
+    def _read(self):
+        courses = []
+
+        self._ensure_file_exists()
+
+        with open(self._file_path, encoding="utf-8") as file:
+            for row in file:
+                row = row.replace("\n", "")
+                parts = row.split(";")
+
+                course_id = parts[0]
+                content = parts[1]
+
+                courses.append(
+                    Course(content, course_id)
+                )
+
+        return courses
+
+    def _write(self, courses):
+        self._ensure_file_exists()
+
+        with open(self._file_path, "w", encoding="utf-8") as file:
+            for course in courses:
+
+                row = f"{course.id};{course.content}"
+
+                file.write(row+"\n")
+
+
