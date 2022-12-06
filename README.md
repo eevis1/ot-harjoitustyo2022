@@ -21,14 +21,14 @@ Tämä on **Ohjelmistotekniikan** *harjoitustyö*. Opintojen seurantajärjestelm
 
 ### Asennus
 
-1. Riippuvuuksien asennus komennolla: poetry install
-2. Vaadittavien alustustoimenpiteiden suorittaminen komennolla: poetry run invoke build
-3. Sovelluksen käynnistäminen komennolla: poetry run invoke start
+1. Riippuvuuksien asennus komennolla: *poetry install*
+2. Vaadittavien alustustoimenpiteiden suorittaminen komennolla: *poetry run invoke build*
+3. Sovelluksen käynnistäminen komennolla: *poetry run invoke start*
 
 
 ### Komentorivitoiminnot
 
-1. Ohjelman suorittaminen komennolla: poetry run invoke start
-2. Testien suorittaminen komennolla: poetry run invoke test
-3. Testikattavuusraportin generoiminen komennolla: poetry run invoke coverage-report
-4. Tiedoston .pylintrc määrittelemien tarkistuksien suorittaminen komennolla: poetry run invoke lint
+1. Ohjelman suorittaminen komennolla: *poetry run invoke start*
+2. Testien suorittaminen komennolla: *poetry run invoke test*
+3. Testikattavuusraportin generoiminen komennolla: *poetry run invoke coverage-report*
+4. Tiedoston .pylintrc määrittelemien tarkistuksien suorittaminen komennolla: *poetry run invoke lint*
