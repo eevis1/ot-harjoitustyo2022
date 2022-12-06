@@ -8,6 +8,8 @@ Tämä on **Ohjelmistotekniikan** *harjoitustyö*. Opintojen seurantajärjestelm
 
 ### Dokumentaatio
 
+- [Release](https://github.com/eevis1/ot-harjoitustyo2022/releases/tag/viikko5)
+
 - [Arkkitehtuurikuvaus](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/arkkitehtuuri.md)
 
 - [Vaatimusmäärittely](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/vaatimusmaarittely.md)
@@ -17,4 +19,16 @@ Tämä on **Ohjelmistotekniikan** *harjoitustyö*. Opintojen seurantajärjestelm
 - [Changelog](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/changelog.md)
 
 
+### Asennus
 
+1. Riippuvuuksien asennus komennolla: poetry install
+2. Vaadittavien alustustoimenpiteiden suorittaminen komennolla: poetry run invoke build
+3. Sovelluksen käynnistäminen komennolla: poetry run invoke start
+
+
+### Komentorivitoiminnot
+
+1. Ohjelman suorittaminen komennolla: poetry run invoke start
+2. Testien suorittaminen komennolla: poetry run invoke test
+3. Testikattavuusraportin generoiminen komennolla: poetry run invoke coverage-report
+4. Tiedoston .pylintrc määrittelemien tarkistuksien suorittaminen komennolla: poetry run invoke lint
