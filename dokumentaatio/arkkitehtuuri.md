@@ -2,4 +2,4 @@
 
 ## Sovelluslogiikka
 
-![](/dokumentaatio/kuvat/Sovelluslogiikka_1.png)
+![](/dokumentaatio/kuvat/Sovelluslogiikka.png)
