@@ -16,6 +16,17 @@ class CourseRepository:
         self._write(courses)
         return course
 
+    def set_done(self, course_id, done=True):
+
+        courses = self.all_courses()
+
+        for course in courses:
+            if course.id == course_id:
+                course.done = done
+                break
+
+        self._write(courses)
+
     def delete_all_courses(self):
         self._write([])
 

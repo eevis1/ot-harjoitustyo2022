@@ -1,9 +1,13 @@
 from tkinter import Tk
+from ui.ui import UI
 
 def main():
     window = Tk()
     window.title("Course App")
-    window.start()
+    
+    view = UI(window)
+    view.start()
+    
     window.mainloop()
 
 
