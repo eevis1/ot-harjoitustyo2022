@@ -26,7 +26,7 @@ Sovelluksella on kaksi käyttäjäroolia, toinen on normaali käyttäjä eli opi
 - Käyttäjä näkee omat käydyt ja käymättömät kurssinsa, sekä niiden arvosanat
 - Käyttäjä voi lisätä kursseja "tehty"
   - Lisätyt kurssit näkyvät vain ne lisänneelle käyttäjälle
-- Käyttäjä voi merkitä kurssin suoritetuksi, jolloin kurssi siirtyy suoritettujen kurssien joukkoon
+- Käyttäjä voi merkitä kurssin suoritetuksi, jolloin kurssi siirtyy suoritettujen kurssien joukkoon "tehty"
 - Käyttäjä voi kirjautua ulos sovelluksesta
 
 
