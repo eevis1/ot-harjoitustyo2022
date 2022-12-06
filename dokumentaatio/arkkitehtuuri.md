@@ -1,5 +1,9 @@
 # Arkkitehtuurikuvaus
 
+## Rakenne
+
+![](/dokumentaatio/kuvat/Pakkauskaavio.png)
+
 ## Sovelluslogiikka
 
 Luokat Student ja Course muodostavat sovelluksen loogisen tietomallin, nämä kuvaavat opiskelijoita ja heidän kurssejaan:
