@@ -2,9 +2,13 @@
 
 ## Viikko 3
 
-- Käyttäjä näkee listan kaikista kursseista
+- Opiskelija näkee listan kaikista kursseista
 
 ## Viikko 4
 
-- Käyttäjä voi lisätä kurssin
+- Opiskelija voi lisätä kurssin
 - Testattu, että CourseRepository-luokka lisää kurssin
+
+## Viikko 5
+
+- Opiskelija voi merkitä kurssin suoritetuksi
