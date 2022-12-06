@@ -9,4 +9,6 @@
 | 29.11. | 1 | dokumentaation päivittämistä |
 | 06.12. | 1 | dokumentaation päivittämistä |
 | 06.12. | 2 | pohtiminen, miten Coverage ja pytest lisätään projektin riippuvuuksiksi, jos tasks.py -tiedosto ei riitä |
-| yht | 12 | |
+| 06.12. | 2 | käyttöliittymän luontia |
+| 06.12. | 1 | kurssin merkitseminen suoritetuksi |
+| yht | 15 | |
