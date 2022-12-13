@@ -76,7 +76,7 @@ class CourseService:
         if not student or student.password != password:
             raise InvalidCredentialsError("Invalid username or password")
 
-        self._user = student
+        self._student = student
 
         return student
 
@@ -102,7 +102,7 @@ class CourseService:
         student = self._student_repository.create(Student(username, password))
 
         if login:
-            self._user = student
+            self._student = student
 
         return student
 
