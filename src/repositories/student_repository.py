@@ -9,6 +9,7 @@ class StudentRepository:
         Args:
             connection: Tietokantayhteyden Connection-olio
         """
-        self._connection = connection
+        self._file_path = file_path
+        """self._connection = connection"""
 
-student_repository = StudentRepository(get_database_connection())
+"""student_repository = StudentRepository(get_database_connection())"""
