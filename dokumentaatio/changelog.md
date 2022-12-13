@@ -12,3 +12,7 @@
 ## Viikko 5
 
 - Opiskelija voi merkitä kurssin suoritetuksi
+
+## Viikko 6
+
+- Opiskelija voi rekisteröityä
