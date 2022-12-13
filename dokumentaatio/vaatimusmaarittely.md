@@ -14,7 +14,7 @@ Sovelluksella on kaksi käyttäjäroolia, toinen on normaali käyttäjä eli opi
 
 ### Ennen kirjautumista
 
-- Käyttäjän täytyy luoda järjestelmään käyttäjätunnus
+- Käyttäjän täytyy luoda järjestelmään käyttäjätunnus "tehty"
   - Käyttäjätunnusten täytyy olla uniikkeja ja pituudeltaan vähintään 3 merkkiä
 - Käyttäjä käyttää käyttäjätunnusta kirjaututuakseen järjestelmään
   - Kirjautuminen tapahtuu syötettämällä käyttäjätunnuksen ja salasanan kirjautumislomakkeelle
