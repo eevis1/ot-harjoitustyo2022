@@ -18,6 +18,8 @@ Tämä on **Ohjelmistotekniikan** *harjoitustyö*. Opintojen seurantajärjestelm
 
 - [Changelog](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/changelog.md)
 
+- [Käyttöohje](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/kayttoohje.md)
+
 
 ### Asennus
 
