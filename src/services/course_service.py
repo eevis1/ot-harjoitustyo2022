@@ -2,11 +2,11 @@ from entities.course import Course
 
 
 from repositories.course_repository import (
-    course_repository as default_course_repository
+    CourseRepository as default_course_repository
 )
 
 from repositories.student_repository import (
-    student_repository as default_student_repository
+    StudentRepository as default_student_repository
 )
 
 

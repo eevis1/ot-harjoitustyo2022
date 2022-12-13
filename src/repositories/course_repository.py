@@ -62,5 +62,3 @@ class CourseRepository:
                 row = f"{course.id};{course.content}"
 
                 file.write(row+"\n")
-
-
