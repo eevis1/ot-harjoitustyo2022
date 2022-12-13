@@ -2,8 +2,19 @@ from tkinter import ttk, constants
 from services.course_service import course_service
 
 class CourseListView:
+    """Kurssien listauksesta vastaava näkymä."""
 
     def __init__(self, root, courses):
+        """Luokan konstruktori. Luo uuden kurssilistausnäkymän.
+        
+        Args:
+            root:
+                TKinter-elementti, jonka sisään näkymä alustetaan.
+            courses:
+                Lista Course-olioita, jotka näkymässä näytetään
+            handle_set_course_done:
+                Kutsuttava-arvo, jota kutsutaan kun kurssi on suoritettu. Saa argumentiksi suoritetun kurssin id-arvon.
+        """
 
         self._root = root
         self._courses = courses
@@ -48,8 +59,14 @@ class CourseListView:
 
 
 class CourseView:
+    """Kurssien listauksesta ja lisäämisestä vastaava näkymä."""
 
     def __init__(self, root):
+        """Luokan konstruktori. Luo uuden kurssinäkymän.
+        Args:
+            root:
+                TKinter-elementti, jonka sisään näkymä alustetaan.
+        """
 
         self._root = root
         self._frame = None
@@ -60,12 +77,14 @@ class CourseView:
         self._initialize()
 
     def pack(self):
+        """"Näyttää näkymän."""
         self._frame.pack(fill=constants.X)
 
     def destroy(self):
+        """"Poistaa näkymän."""
         self._frame.destroy()
 
-    def _handle_set_todo_done(self, course_id):
+    def _handle_set_course_done(self, course_id):
         course_service.set_course_done(course_id)
         self._initialize_course_list()
 
