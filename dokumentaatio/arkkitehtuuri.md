@@ -8,6 +8,12 @@ Ohjelma on rakennettu kolmeen tasoon ja seuraavassa kuvassa näkyy koodin pakkau
 
 Pakkaukseen ui on sisällytetty käyttöliittymästä vastaava koodi, kun taas services vastaa sovelluslogiikasta ja repositories tietojen pysyväistallennuksesta. Sovelluksen käyttämiä tietokohteita kuvastavat pakkauksen entities sisältämät luokat.
 
+
+## Käyttöliittymä
+
+Käyttöliittymä sisältää näkymät sisäänkirjautumiselle, uuden käyttäjän luomiselle ja kurssilistaukselle. Jokainen näistä on toteutettu omana luokkanaan ja niiden näyttämisestä vastaa UI-luokka
+
+
 ## Sovelluslogiikka
 
 Luokat Student ja Course muodostavat sovelluksen loogisen tietomallin, nämä kuvaavat opiskelijoita ja heidän kurssejaan:
@@ -19,6 +25,7 @@ Luokka TodoService vastaa ohjelman toiminnallisista kokonaisuuksista ja tarjoaa 
 CourseService-luokan ja ohjelman muiden osien suhdetta kuvaava luokka/pakkauskaavio:
 
 ![](/dokumentaatio/kuvat/Pakkaus_Sovelluskaavio.png)
+
 
 ## Päätoiminnallisuudet
 
