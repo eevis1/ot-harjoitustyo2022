@@ -8,7 +8,7 @@ Tämä on **Ohjelmistotekniikan** *harjoitustyö*. Opintojen seurantajärjestelm
 
 ### Dokumentaatio
 
-- [Release](https://github.com/eevis1/ot-harjoitustyo2022/releases/tag/viikko5_)
+- [Release](https://github.com/eevis1/ot-harjoitustyo2022/releases/tag/viikko6)
 
 - [Arkkitehtuurikuvaus](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/arkkitehtuuri.md)
 
