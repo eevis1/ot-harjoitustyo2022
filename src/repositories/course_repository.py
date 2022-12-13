@@ -3,20 +3,43 @@ from entities.course import Course
 
 
 class CourseRepository:
+    """Kursseihin liittyvistä tietokantaoperaatioista vastaava luokka.
+    """
 
     def __init__(self, file_path):
+        """Luokan konstruktori.
+        Args:
+            file_path: Polku tiedostoon, johon kurssit tallennetaan.
+        """
         self._file_path = file_path
 
     def all_courses(self):
+        """Palauttaa kaikki kurssit.
+        Returns:
+            Palauttaa listan Course-olioita.
+        """
         return self._read()
 
     def add_course(self, course):
+        """Tallentaa kurssin tietokantaan.
+        Args:
+            course: Tallennettava tehtävä Course-oliona.
+        Returns:
+            Tallennettu tehtävä Course-oliona.
+        """
         courses = self.all_courses()
         courses.append(course)
         self._write(courses)
         return course
 
     def set_done(self, course_id, done=True):
+        """Asettaa kurssin suoritettu-statuksen.
+        Args:
+            course_id: Kurssin id, jonka suoritettu-status muutetaan.
+            done:
+                Vapaaehtoinen, oletusarvo True.
+                Boolean-arvo, joka asetetaan kurssin suoritettu-statukseksi.
+        """
 
         courses = self.all_courses()
 
@@ -28,6 +51,8 @@ class CourseRepository:
         self._write(courses)
 
     def delete_all_courses(self):
+        """Poistaa kaikki kurssit.
+        """
         self._write([])
 
     def _ensure_file_exists(self):
