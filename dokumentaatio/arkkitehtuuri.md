@@ -19,3 +19,13 @@ Luokka TodoService vastaa ohjelman toiminnallisista kokonaisuuksista ja tarjoaa 
 CourseService-luokan ja ohjelman muiden osien suhdetta kuvaava luokka/pakkauskaavio:
 
 ![](/dokumentaatio/kuvat/Pakkaus_Sovelluskaavio.png)
+
+## Päätoiminnallisuudet
+
+### Kurssin lisääminen
+
+Uuden kurssin lisäävän "Add"-painikkeen painamisen jälkeen sovelluksen kontrolli etenee seuraavan kaavion mukaisesti:
+
+![](/dokumentaatio/kuvat/Sekvenssikaavio.png)
+
+Tapahtumakäsittelijä kutsuu sovelluslogiikan metodia add_course ja antaa sille parametriksi lisättävän kurssin tiedot. Sovelluslogiikka luo uuden Course-olion ja tallettaa sen kutsumalla CourseRepository:n metodia add. Tämän seurauksena käyttöliittymä päivittää näytettävät kurssit kutsumalla omaa metodiaan initialize_course_list.
