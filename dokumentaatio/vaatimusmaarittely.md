@@ -2,38 +2,27 @@
 
 ## Sovelluksen tarkoitus
 
-Opintojen seurantajärjestelmä antaa käyttäjälle mahdollisuuden pitää kirjaa jo suoritetuista ja vielä suorittamatta olevista kursseista. Sovellusta voi käyttää useampi käyttäjä omien profiiliensa kautta, jolloin myös kurssilistat ovat yksilöllisiä.
+Opintojen seurantajärjestelmä antaa käyttäjälle mahdollisuuden pitää kirjaa jo suoritetuista ja vielä suorittamatta olevista kursseista.
 
 
 ## Käyttäjät
 
-Sovelluksella on kaksi käyttäjäroolia, toinen on normaali käyttäjä eli opiskelija ja toinen on suuremmilla oikeuksilla varustettu opettaja, joka voi lisätä opiskelijoiden arvosanoja järjestelmään.
+Sovelluksella on yksi käyttäjärooli, normaali käyttäjä eli opiskelija.
 
 
 ## Perusversion tarjoama toiminnallisuus
 
-### Ennen kirjautumista
-
-- Käyttäjän täytyy luoda järjestelmään käyttäjätunnus "tehty"
-  - Käyttäjätunnusten täytyy olla uniikkeja ja pituudeltaan vähintään 3 merkkiä
-- Käyttäjä käyttää käyttäjätunnusta kirjaututuakseen järjestelmään
-  - Kirjautuminen tapahtuu syötettämällä käyttäjätunnuksen ja salasanan kirjautumislomakkeelle
-  - Jos käyttäjää ei olemassa, tai salasana ei täsmää, järjestelmä ilmoittaa tästä
-
-
-### Kirjautumisen jälkeen
-
-- Käyttäjä näkee omat käydyt ja käymättömät kurssinsa, sekä niiden arvosanat
-- Käyttäjä voi lisätä kursseja "tehty"
-  - Lisätyt kurssit näkyvät vain ne lisänneelle käyttäjälle
-- Käyttäjä voi merkitä kurssin suoritetuksi, jolloin kurssi siirtyy suoritettujen kurssien joukkoon "tehty"
-- Käyttäjä voi kirjautua ulos sovelluksesta
+- Käyttäjä näkee käydyt ja käymättömät kurssinsa, jotka on lisännyt järjestelmään
+- Käyttäjä voi lisätä kursseja
+- Käyttäjä voi merkitä kurssin suoritetuksi, jolloin kurssi siirtyy suoritettujen kurssien joukkoon 
 
 
 ## Jatkokehitysideoita
 
-Perusversion jälkeen sovellusta voidaan jatkaa, jos aikaa riittää muun muassa seuraavilla toiminnallisuuksilla:
+Perusversion jälkeen sovellusta voidaan jatkaa tulevaisuudessa muun muassa seuraavilla toiminnallisuuksilla:
 
+- Kirjautumismahdollisuus
+- Toisen käyttäjäroolin lisääminen: suuremmilla oikeuksilla varustettu opettaja, joka voi lisätä opiskelijoiden arvosanoja järjestelmään. 
 - Jo suoritettujen kurssien lähempi tarkastelu
 - Tehdyksi merkittyjen kurssien merkitseminen takaisin tekemättömäksi
 - Jo lisättyjen kurssien editoiminen
