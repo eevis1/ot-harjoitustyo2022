@@ -20,7 +20,12 @@ Luokka Course muodostaa sovelluksen loogisen tietomallin, tämä kuvaa opiskelij
 
 ![](/dokumentaatio/kuvat/Sovelluslogiikka_2.png)
 
-Luokka TodoService vastaa ohjelman toiminnallisista kokonaisuuksista ja tarjoaa erinäisiä metodeja. Se myös pääsee käsiksi kursseihin luokan CourseRepository välityksellä, joka sijaitsee pakkauksessa repositories.
+Luokka TodoService vastaa ohjelman toiminnallisista kokonaisuuksista ja tarjoaa erinäisiä metodeja. Näitä ovat esimerkiksi:
+- get_undone_courses()
+- add_course(name)
+- set_course_done(course_id)
+
+Se myös pääsee käsiksi kursseihin luokan CourseRepository välityksellä, joka sijaitsee pakkauksessa repositories.
 
 CourseService-luokan ja ohjelman muiden osien suhdetta kuvaava luokka/pakkauskaavio:
 
