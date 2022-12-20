@@ -3,22 +3,21 @@
 ## Ohjelman käynnistäminen
 
 1. Riippuvuuksien asennus komennolla: *poetry install*
-2. Vaadittavien alustustoimenpiteiden suorittaminen komennolla: *poetry run invoke build*
+2. Pip täytyy olla asennettuna, jotta voidaan asentaa dotenv komennolla: *pip3 install python-dotenv*
 3. Sovelluksen käynnistäminen komennolla: *poetry run invoke start*
 
 
-## Kirjautuminen
+## Käyttöliittymä
 
-Sovellus käynnistyy kirjautumisnäkymään
-
-
-## Uuden opiskelijan lisääminen
-
-Kirjautumisnäkymästä on mahdollista siirtyä uuden opiskelijan lisäämisnäkymään panikkeella "Add user".
+Sovellus käynnistyy kurssinäkymään.
 
 
-## Kurssien lisääminen ja suoritetuksi merkitseminen
+## Kurssin lisääminen
 
-Kirjautumisen myötä siirrytään näkymään, joka listaa opiskelijan kurssit. 
-Tässä näkymässä lisättyjä kursseja voi merkitä suoritetuiksi painikkeella "Done" ja uusia kursseja voi lisätä kirjoittamalla syötekenttään kurssin kuvauksen ja painamalla "Add"-painiketta.
+Kurssinäkymä listaa opiskelijan kurssit ja siinä on myös mahdollista lisätä uusi kurssi kirjoittamalla syötekenttään kurssin nimi ja painamalla "Add"-painiketta.
+
+
+## Kurssien suoritetuksi merkitseminen
+
+Kurssinäkymässä lisättyjä kursseja voi myös merkitä suoritetuiksi painikkeella "Done"
 
