@@ -24,7 +24,7 @@ Luokka TodoService vastaa ohjelman toiminnallisista kokonaisuuksista ja tarjoaa 
 
 CourseService-luokan ja ohjelman muiden osien suhdetta kuvaava luokka/pakkauskaavio:
 
-![](/dokumentaatio/kuvat/Pakkaus_Sovelluskaavio.png)
+![](/dokumentaatio/kuvat/Pakkaus_Sovelluskaavio_1.png)
 
 
 ## Päätoiminnallisuudet
