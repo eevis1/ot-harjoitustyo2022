@@ -16,3 +16,9 @@
 ## Viikko 6
 
 - Opiskelija voi rekisteröityä
+
+## Viikko 7
+
+- Opiskelijan rekisteröityminen poistettu
+- Testit CourseRepository- ja CourseService-luokille
+- UI:n luonti
