@@ -24,7 +24,7 @@ Tämä on **Ohjelmistotekniikan** *harjoitustyö*. Opintojen seurantajärjestelm
 ### Asennus
 
 1. Riippuvuuksien asennus komennolla: *poetry install*
-2. Vaadittavien alustustoimenpiteiden suorittaminen komennolla: *poetry run invoke build*
+2. Pip täytyy olla asennettuna, jotta voidaan asentaa dotenv komennolla: *pip3 install python-dotenv*
 3. Sovelluksen käynnistäminen komennolla: *poetry run invoke start*
 
 
