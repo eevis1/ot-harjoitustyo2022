@@ -4,7 +4,7 @@ from services.course_service import course_service
 class CourseListView:
     """Kurssien listauksesta vastaava näkymä."""
 
-    def __init__(self, root, courses):
+    def __init__(self, root, courses, handle_set_course_done):
         """Luokan konstruktori. Luo uuden kurssilistausnäkymän.
         
         Args:
@@ -18,19 +18,22 @@ class CourseListView:
 
         self._root = root
         self._courses = courses
+        self._handle_set_course_done = handle_set_course_done
         self._frame = None
 
         self._initialize()
 
     def pack(self):
+        """"Näyttää näkymän."""
         self._frame.pack(fill=constants.X)
 
     def destroy(self):
+        """"Tuhoaa näkymän."""
         self._frame.destroy()
 
     def _initialize_course_item(self, course):
         item_frame = ttk.Frame(master=self._frame)
-        label = ttk.Label(master=item_frame, text=course.content)
+        label = ttk.Label(master=item_frame, text=course.name)
 
         set_done_button = ttk.Button(
             master=item_frame,
@@ -102,12 +105,11 @@ class CourseView:
 
         self._course_list_view.pack()
 
-
     def _handle_add_course(self):
-        course_content = self._add_course_entry.get()
+        course_name = self._add_course_entry.get()
 
-        if course_content:
-            course_service.add_course(course_content)
+        if course_name:
+            course_service.add_course(course_name)
             self._initialize_course_list()
             self._add_course_entry.delete(0, constants.END)
 

@@ -2,11 +2,11 @@ from tkinter import Tk
 from ui.ui import UI
 
 def main():
-    window = Tk()
-    window.title("Course App")
-    view = UI(window)
+    screen = Tk()
+    screen.title("Course App")
+    view = UI(screen)
     view.start()
-    window.mainloop()
+    screen.mainloop()
 
 if __name__ == "__main__":
     main()

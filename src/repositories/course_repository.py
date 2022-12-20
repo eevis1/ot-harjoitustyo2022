@@ -1,6 +1,6 @@
 from pathlib import Path
 from entities.course import Course
-
+from config import COURSES_FILE_PATH
 
 class CourseRepository:
     """Kursseihin liittyvistä tietokantaoperaatioista vastaava luokka.
@@ -23,9 +23,9 @@ class CourseRepository:
     def add_course(self, course):
         """Tallentaa kurssin tietokantaan.
         Args:
-            course: Tallennettava tehtävä Course-oliona.
+            course: Tallennettava kurssi Course-oliona.
         Returns:
-            Tallennettu tehtävä Course-oliona.
+            Tallennettu kurssi Course-oliona.
         """
         courses = self.all_courses()
         courses.append(course)
@@ -50,19 +50,30 @@ class CourseRepository:
 
         self._write(courses)
 
+    def delete(self, course_id):
+        """Poistaa kurssin.
+        Args:
+            course_id: Poistettavan kurssin id.
+        """
+
+        courses = self.all_courses()
+
+        courses_without_id = filter(lambda course: course.id != course_id, courses)
+
+        self._write(courses_without_id)
+
     def delete_all_courses(self):
         """Poistaa kaikki kurssit.
         """
         self._write([])
 
-    def _ensure_file_exists(self):
+    def _make_sure_file_exists(self):
         Path(self._file_path).touch()
-
 
     def _read(self):
         courses = []
 
-        self._ensure_file_exists()
+        self._make_sure_file_exists()
 
         with open(self._file_path, encoding="utf-8") as file:
             for row in file:
@@ -70,20 +81,24 @@ class CourseRepository:
                 parts = row.split(";")
 
                 course_id = parts[0]
-                content = parts[1]
+                name = parts[1]
+                done = parts[2] == "1"
 
                 courses.append(
-                    Course(content, course_id)
+                    Course(name, done, course_id)
                 )
 
         return courses
 
     def _write(self, courses):
-        self._ensure_file_exists()
+        self._make_sure_file_exists()
 
         with open(self._file_path, "w", encoding="utf-8") as file:
             for course in courses:
+                done_or_not = "1" if course.done else "0"
 
-                row = f"{course.id};{course.content}"
+                row = f"{course.id};{course.name};{done_or_not}"
 
                 file.write(row+"\n")
+
+course_repository = CourseRepository(COURSES_FILE_PATH)
