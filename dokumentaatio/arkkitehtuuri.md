@@ -18,7 +18,7 @@ Käyttöliittymä sisältää näkymän kurssilistaukselle. Tämä on toteutettu
 
 Luokka Course muodostaa sovelluksen loogisen tietomallin, tämä kuvaa opiskelijan kursseja:
 
-![](/dokumentaatio/kuvat/Sovelluslogiikka_1.png)
+![](/dokumentaatio/kuvat/Sovelluslogiikka_2.png)
 
 Luokka TodoService vastaa ohjelman toiminnallisista kokonaisuuksista ja tarjoaa erinäisiä metodeja. Se myös pääsee käsiksi kursseihin luokan CourseRepository välityksellä, joka sijaitsee pakkauksessa repositories.
 
