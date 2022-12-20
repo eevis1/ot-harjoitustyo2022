@@ -15,4 +15,8 @@
 | 13.12. | 1 | dokumentaation päivittämistä |
 | 13.12. | 1 | arkkitehtuurikuvaus |
 | 13.12. | 2 | opiskelijan sisäänkirjautuminen |
-| yht | 20 | |
+| 20.12. | 2 | testien lisäämistä |
+| 20.12. | 2 | arkkitehtuurikuvauksen päivittäminen |
+| 20.12. | 1 | muun dokumentaation päivittämistä |
+| 20.12. | 3 | korjauksia koodiin |
+| yht | 28 | |
