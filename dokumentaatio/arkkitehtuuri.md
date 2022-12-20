@@ -11,16 +11,16 @@ Pakkaukseen ui on sisällytetty käyttöliittymästä vastaava koodi, kun taas s
 
 ## Käyttöliittymä
 
-Käyttöliittymä sisältää näkymät sisäänkirjautumiselle, uuden käyttäjän luomiselle ja kurssilistaukselle. Jokainen näistä on toteutettu omana luokkanaan ja niiden näyttämisestä vastaa UI-luokka
+Käyttöliittymä sisältää näkymän kurssilistaukselle. Tämä on toteutettu omana luokkanaan ja sen näyttämisestä vastaa UI-luokka
 
 
 ## Sovelluslogiikka
 
-Luokat Student ja Course muodostavat sovelluksen loogisen tietomallin, nämä kuvaavat opiskelijoita ja heidän kurssejaan:
+Luokka Course muodostaa sovelluksen loogisen tietomallin, tämä kuvaa opiskelijan kursseja:
 
 ![](/dokumentaatio/kuvat/Sovelluslogiikka_1.png)
 
-Luokka TodoService vastaa ohjelman toiminnallisista kokonaisuuksista ja tarjoaa erinäisiä metodeja. Se myös pääsee käsiksi opiskelijoihin ja kursseihin luokkien CourseRepository ja StudentRepository, jotka sijaitsevat pakkauksessa repositories.
+Luokka TodoService vastaa ohjelman toiminnallisista kokonaisuuksista ja tarjoaa erinäisiä metodeja. Se myös pääsee käsiksi kursseihin luokan CourseRepository välityksellä, joka sijaitsee pakkauksessa repositories.
 
 CourseService-luokan ja ohjelman muiden osien suhdetta kuvaava luokka/pakkauskaavio:
 
@@ -35,4 +35,4 @@ Uuden kurssin lisäävän "Add"-painikkeen painamisen jälkeen sovelluksen kontr
 
 ![](/dokumentaatio/kuvat/Sekvenssikaavio.png)
 
-Tapahtumakäsittelijä kutsuu sovelluslogiikan metodia add_course ja antaa sille parametriksi lisättävän kurssin tiedot. Sovelluslogiikka luo uuden Course-olion ja tallettaa sen kutsumalla CourseRepository:n metodia add. Tämän seurauksena käyttöliittymä päivittää näytettävät kurssit kutsumalla omaa metodiaan initialize_course_list.
+Tapahtumakäsittelijä kutsuu sovelluslogiikan metodia add_course ja antaa sille parametriksi lisättävän kurssin tiedot. Sovelluslogiikka luo uuden Course-olion ja tallettaa sen kutsumalla CourseRepositoryn metodia add. Tämän seurauksena käyttöliittymä päivittää näytettävät kurssit kutsumalla omaa metodiaan initialize_course_list.
