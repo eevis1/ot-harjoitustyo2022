@@ -16,6 +16,8 @@ Tämä on **Ohjelmistotekniikan** *harjoitustyö*. Opintojen seurantajärjestelm
 
 - [Tuntikirjanpito](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/tuntikirjanpito.md)
 
+- [Testausdokumentti](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/testaus.md)
+
 - [Changelog](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/changelog.md)
 
 - [Käyttöohje](https://github.com/eevis1/ot-harjoitustyo2022/blob/master/dokumentaatio/kayttoohje.md)
